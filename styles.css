@@ -191,14 +191,14 @@ section {
 }
 
 .footer .social-links {
-    margin: 1.5rem 1rem;
+    margin: 1rem 1rem;
     font-size: 1.2rem;
 }
 
 .footer .social-links li {
     list-style: none;
     display: inline;
-    padding: 0rem 1.1rem;
+    padding: 0rem 2rem;
 }
 
 .footer .social-links li a {
@@ -207,4 +207,108 @@ section {
 
 .footer .social-links li a:hover {
     text-decoration: underline;
+}
+
+/* Responsiveness */
+/* Responsiveness */
+@media all and (max-width: 768px) {
+    .hero .hero-img {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .footer .social-links {
+        margin: 0rem 3rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .footer .social-links {
+        margin: 0rem 4rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .navigation .link {
+        padding: 0rem 0rem;
+    }
+
+    .hero .hero-heading {
+        font-size: 1.1rem;
+    }
+
+    .hero .name {
+        font-size: 2.2rem;
+        color: var(--dark-gray);
+    }
+
+    .hero .profile {
+        font-size: 1.1rem;
+    }
+
+    .footer .footer-header {
+        margin-bottom: 0.5rem;
+    }
+
+    .footer .social-links {
+        margin: 0rem 4rem;
+        font-size: 1.2rem;
+    }
+
+    .footer .social-links li {
+        padding: 0rem 1.5rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .navigation .link {
+        padding: 0rem 0rem;
+    }
+
+    .hero .hero-heading {
+        font-size: 1.2rem;
+    }
+
+    .hero .name {
+        font-size: 2.1rem;
+    }
+
+    .hero .profile {
+        font-size: 1.2rem;
+    }
+
+    .footer .social-links {
+        margin: 0.3rem 4.5rem;
+        font-size: 1rem;
+    }
+
+    .footer .footer-header {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .navigation .link {
+        padding: 0rem 0rem;
+    }
+
+    .hero .hero-heading {
+        font-size: 1rem;
+    }
+
+    .hero .name {
+        font-size: 1.8rem;
+    }
+
+    .hero .profile {
+        font-size: 1rem;
+    }
+
+    .footer .social-links {
+        margin: 0.3rem 3rem;
+        font-size: 1rem;
+    }
 }
