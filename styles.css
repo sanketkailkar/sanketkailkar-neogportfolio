@@ -210,7 +210,6 @@ section {
 }
 
 /* Responsiveness */
-/* Responsiveness */
 @media all and (max-width: 768px) {
     .hero .hero-img {
         max-width: 85%;
