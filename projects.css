@@ -75,8 +75,7 @@ div {
 
 /* header  */
 .heading {
-    padding: 2rem;
-    padding-top: 3rem;
+    padding: 2rem 2rem 0rem;
 }
 
 .heading .main-heading {
@@ -150,6 +149,7 @@ small {
 
 .showcase-list p {
     padding-bottom: 1rem;
+    margin-bottom: 0.3rem;
 }
 
 .link-primary {

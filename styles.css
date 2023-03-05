@@ -141,16 +141,17 @@ section {
 
 .section div p,
 .section-gray p {
-    margin-bottom: 0.7rem;
+    margin-bottom: 1.4rem;
 }
 
 /* section links */
+
 .link-primary {
     background-color: var(--primary-color);
     color: var(--off-white);
-    border-radius: 1rem;
-    padding: 0.3rem 0.6rem;
-    margin: 1rem 0rem;
+    border-radius: 50px;
+    padding: 0.6rem 1.2rem;
+    margin: 1.5rem 0rem;
 }
 
 .link-primary:hover {
