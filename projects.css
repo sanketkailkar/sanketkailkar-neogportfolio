@@ -75,7 +75,7 @@ div {
 
 /* header  */
 .heading {
-    padding: 2rem 2rem 0rem;
+    padding: 2rem 2rem 2rem;
 }
 
 .heading .main-heading {
@@ -244,7 +244,7 @@ small {
 
 @media screen and(max-width:450px) {
     .navigation div a {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .navigation .link {
