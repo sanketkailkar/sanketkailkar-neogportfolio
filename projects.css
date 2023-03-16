@@ -148,8 +148,14 @@ small {
 }
 
 .showcase-list p {
-    padding-bottom: 1rem;
-    margin-bottom: 0.3rem;
+    padding: 0.5rem 0rem;
+    /* margin-bottom: 0.3rem; */
+}
+
+.showcase-list .skills {
+    padding: 0rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
 }
 
 .link-primary {
